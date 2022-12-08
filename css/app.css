@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@900&family=Open+Sans:wght@400;600;700;800&family=Outfit:wght@300;400;600&family=Roboto:wght@300;400&family=Space+Mono:wght@400;700&display=swap");
 h1 {
   color: red;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*# sourceMappingURL=app.css.map */
