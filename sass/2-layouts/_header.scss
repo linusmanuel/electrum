@@ -26,9 +26,8 @@
       }
     }
   }
-}
 
-.main-header {
+  .main-header {
   &-container { 
     @include layouts-mixins.center-content;
     padding: 1.3rem 0;
@@ -69,9 +68,36 @@
     display: flex;
     align-items: center;
 
-    .wishlist-cart-container, 
-    .header-cart-container {
-      @include layouts-mixins.header-icon;
+      .wishlist-cart-container, 
+      .header-cart-container {
+        @include layouts-mixins.header-icon;
+        }
+    }
+  }
+
+   &-bottom {
+    background-color: variables.$light-color;
+    border-bottom: 2px solid variables.$secondary-bg-color;
+    border-top: 3px solid variables.$primary-color;
+
+    ul {
+      @include layouts-mixins.center-content;
+      justify-content: left;
+      padding: 1rem 0;
+
+      li {
+        margin-right: 1.3rem;
+      }
+
+      a {
+        color: variables.$link-color;
+        border-bottom: 2px solid transparent;
+
+        &:hover {
+          color: variables.$primary-color;
+          border-color: variables.$primary-color;
+        }
+      }
     }
   }
 }
