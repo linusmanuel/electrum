@@ -27,3 +27,51 @@
     }
   }
 }
+
+.main-header {
+  &-container { 
+    @include layouts-mixins.center-content;
+    padding: 1.3rem 0;
+  }
+
+  a, span, i {
+    color: #fff;
+  }
+
+  #brand {
+    font-size: 3rem;
+    font-weight: 900;
+
+    i {
+      color: variables.$primary-color;
+      font-size: 2rem;
+      margin-left: .6rem;
+    }
+  }
+
+  #search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+
+    input {
+      height: 40px;
+    }
+
+    #search {
+      @include layouts-mixins.rounded-input;
+      width: 60%;
+    }
+  }
+
+  .header-actions-menu {
+    display: flex;
+    align-items: center;
+
+    .wishlist-cart-container, 
+    .header-cart-container {
+      @include layouts-mixins.header-icon;
+    }
+  }
+}

@@ -56,4 +56,96 @@ ul {
   color: #fff;
 }
 
+.main-header-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3rem 0;
+}
+.main-header a, .main-header span, .main-header i {
+  color: #fff;
+}
+.main-header #brand {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.main-header #brand i {
+  color: #d10024;
+  font-size: 2rem;
+  margin-left: 0.6rem;
+}
+.main-header #search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+}
+.main-header #search-form input {
+  height: 40px;
+}
+.main-header #search-form #search {
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-left: 25px;
+  width: 60%;
+}
+.main-header .header-actions-menu {
+  display: flex;
+  align-items: center;
+}
+.main-header .header-actions-menu .wishlist-cart-container,
+.main-header .header-actions-menu .header-cart-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 2.5rem;
+}
+.main-header .header-actions-menu .wishlist-cart-container .qty,
+.main-header .header-actions-menu .header-cart-container .qty {
+  position: absolute;
+  top: -10px;
+  right: 2px;
+  background-color: #d10024;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-header .header-actions-menu .wishlist-cart-container i,
+.main-header .header-actions-menu .header-cart-container i {
+  margin-bottom: 0.2rem;
+}
+.main-header .header-actions-menu .wishlist-cart-container a:hover,
+.main-header .header-actions-menu .header-cart-container a:hover {
+  color: #d10024;
+}
+
+.btn {
+  padding: 8px 15px;
+  height: 40px;
+  color: #fff;
+  border-radius: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #d10024;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid #d10024;
+  transform: 0.4s;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #d10024;
+}
+.btn-half {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  text-transform: none;
+}
+
 /*# sourceMappingURL=app.css.map */
