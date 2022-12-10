@@ -1,0 +1,28 @@
+@use '../1-base/variables';
+@use '../1-base/base-mixins';
+@use 'layouts-mixins';
+
+.footer {
+  background-color: variables.$bg-color;
+  padding: 3rem 0;
+
+  a,
+  p {
+    color: variables.$gray-text-color;
+  }
+
+  li,
+  p {
+    margin-bottom: 1rem;
+
+    a {
+      &:hover {
+        color: variables.$primary-color;
+      }
+    }
+  }
+
+  i {
+    margin-right: .3rem;
+  }
+}

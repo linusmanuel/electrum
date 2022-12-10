@@ -224,6 +224,26 @@ ul {
   font-size: 1.5rem;
 }
 
+.footer {
+  background-color: #15161d;
+  padding: 3rem 0;
+}
+.footer a,
+.footer p {
+  color: #b9babc;
+}
+.footer li,
+.footer p {
+  margin-bottom: 1rem;
+}
+.footer li a:hover,
+.footer p a:hover {
+  color: #d10024;
+}
+.footer i {
+  margin-right: 0.3rem;
+}
+
 .btn {
   padding: 8px 15px;
   height: 40px;
