@@ -213,6 +213,12 @@ ul {
   flex-direction: column;
   padding: 2rem 0.8rem;
 }
+@media (max-width: 425px) {
+  .products-grid {
+    padding-inline: 1.8rem;
+    text-align: center;
+  }
+}
 .products-grid h2 {
   font-size: 2rem;
   text-transform: uppercase;
@@ -221,6 +227,11 @@ ul {
   display: flex;
   justify-content: space-between;
   padding: 2rem 0;
+}
+@media (max-width: 425px) {
+  .products-grid-container {
+    display: block;
+  }
 }
 
 .deal-container {
@@ -497,6 +508,14 @@ ul {
 @media (max-width: 768px) {
   .products-grid-card {
     width: 24%;
+  }
+}
+@media (max-width: 425px) {
+  .products-grid-card {
+    width: 100%;
+  }
+  .products-grid-card:not(:last-child) {
+    margin-bottom: 2rem;
   }
 }
 .products-grid-card:hover {
