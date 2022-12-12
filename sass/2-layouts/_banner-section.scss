@@ -5,4 +5,9 @@
 .banners {
   @include layouts-mixins.center-content;
   padding: 3rem .8rem;
+
+  @include base-mixins.mobile {
+    display: block;
+    padding-inline: 1.6rem;
+  }
 }

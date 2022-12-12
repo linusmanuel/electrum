@@ -12,6 +12,13 @@
   background-size: 100%;
   background-image: '';
 
+  @include base-mixins.mobile {
+    width:100%;
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+
   &:hover {
     background-size: 120%;
   }
@@ -38,6 +45,10 @@
 
     @include base-mixins.tablet {
       font-size: 1.2rem;
+    }
+
+    @include base-mixins.mobile {
+      font-size: 2.1rem;
     }
   }
 

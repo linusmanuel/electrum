@@ -198,6 +198,12 @@ ul {
   justify-content: space-between;
   padding: 3rem 0.8rem;
 }
+@media (max-width: 425px) {
+  .banners {
+    display: block;
+    padding-inline: 1.6rem;
+  }
+}
 
 .products-grid {
   max-width: 1170px;
@@ -417,6 +423,14 @@ ul {
   background-size: 100%;
   background-image: "";
 }
+@media (max-width: 425px) {
+  .banner {
+    width: 100%;
+  }
+  .banner:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
 .banner:hover {
   background-size: 120%;
 }
@@ -441,6 +455,11 @@ ul {
 @media (max-width: 1024px) {
   .banner h2 {
     font-size: 1.2rem;
+  }
+}
+@media (max-width: 425px) {
+  .banner h2 {
+    font-size: 2.1rem;
   }
 }
 .banner a {
