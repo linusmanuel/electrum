@@ -6,6 +6,10 @@
   background-color: variables.$bg-color;
   padding: 3rem .8rem;
 
+  @include base-mixins.mobile {
+    padding-inline: 3rem;
+  }
+
   a,
   p {
     color: variables.$gray-text-color;
@@ -37,11 +41,20 @@
     @include layouts-mixins.center-content;
     padding-bottom: 3rem;
 
+    @include base-mixins.mobile {
+      display: block;
+    }
+
     &-about, 
     &-categories,
     &-information,
     &-menu {
       max-width: 25%;
+
+      @include base-mixins.mobile {
+        max-width: 100%;
+        margin-bottom: 2rem;
+      }
     }
   }
 

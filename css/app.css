@@ -325,6 +325,11 @@ ul {
   background-color: #15161d;
   padding: 3rem 0.8rem;
 }
+@media (max-width: 425px) {
+  .footer {
+    padding-inline: 3rem;
+  }
+}
 .footer a,
 .footer p {
   color: #b9babc;
@@ -353,8 +358,19 @@ ul {
   justify-content: space-between;
   padding-bottom: 3rem;
 }
+@media (max-width: 425px) {
+  .footer-top {
+    display: block;
+  }
+}
 .footer-top-about, .footer-top-categories, .footer-top-information, .footer-top-menu {
   max-width: 25%;
+}
+@media (max-width: 425px) {
+  .footer-top-about, .footer-top-categories, .footer-top-information, .footer-top-menu {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
 }
 .footer-bottom {
   max-width: 1170px;
