@@ -11,7 +11,7 @@
 
     &-container {
       @include layouts-mixins.center-content;
-      padding: .8rem 0;
+      padding: .8rem;
 
       span {
         margin-right: 1rem;
@@ -30,7 +30,7 @@
   .main-header {
   &-container { 
     @include layouts-mixins.center-content;
-    padding: 1.3rem 0;
+    padding: 1.3rem .8rem;
   }
 
   a, span, i {
@@ -79,6 +79,7 @@
     background-color: variables.$light-color;
     border-bottom: 2px solid variables.$section-bg-color;
     border-top: 3px solid variables.$primary-color;
+    padding-inline: 0.8rem;
 
     ul {
       @include layouts-mixins.center-content;

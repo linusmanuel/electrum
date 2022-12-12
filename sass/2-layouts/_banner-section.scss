@@ -4,5 +4,5 @@
 
 .banners {
   @include layouts-mixins.center-content;
-  padding: 3rem 0;
+  padding: 3rem .8rem;
 }

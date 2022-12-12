@@ -44,7 +44,7 @@ ul {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 0.8rem 0;
+  padding: 0.8rem;
 }
 .header-top-container span {
   margin-right: 1rem;
@@ -60,7 +60,7 @@ ul {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 1.3rem 0;
+  padding: 1.3rem 0.8rem;
 }
 .header .main-header a, .header .main-header span, .header .main-header i {
   color: #fff;
@@ -127,6 +127,7 @@ ul {
   background-color: #fff;
   border-bottom: 2px solid #e4e7ed;
   border-top: 3px solid #d10024;
+  padding-inline: 0.8rem;
 }
 .header-bottom ul {
   max-width: 1170px;
@@ -153,7 +154,7 @@ ul {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 3rem 0;
+  padding: 3rem 0.8rem;
 }
 
 .products-grid {
@@ -162,7 +163,7 @@ ul {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  padding: 2rem 0;
+  padding: 2rem 0.8rem;
 }
 .products-grid h2 {
   font-size: 2rem;
@@ -226,7 +227,7 @@ ul {
 
 .footer {
   background-color: #15161d;
-  padding: 3rem 0;
+  padding: 3rem 0.8rem;
 }
 .footer a,
 .footer p {

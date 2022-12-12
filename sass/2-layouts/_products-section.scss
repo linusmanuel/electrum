@@ -4,7 +4,7 @@
 .products-grid {
   @include layouts-mixins.center-content;
   flex-direction: column;
-  padding: 2rem 0;
+  padding: 2rem 0.8rem;
 
   h2 {
     font-size: 2rem;
