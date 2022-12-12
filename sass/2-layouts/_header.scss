@@ -9,6 +9,10 @@
     background-color: variables.$secondary-bg-color;
     color: variables.$light-color;
 
+    @include base-mixins.mobile {
+      display: none;
+    }
+
     &-container {
       @include layouts-mixins.center-content;
       padding: .8rem;
@@ -31,6 +35,12 @@
   &-container { 
     @include layouts-mixins.center-content;
     padding: 1.3rem .8rem;
+
+     @include base-mixins.mobile {
+      border-bottom: 3px solid variables.$primary-color;
+      flex-direction: column;
+      text-align: center;
+    }
   }
 
   a, span, i {
@@ -58,6 +68,12 @@
     justify-content: center;
     width: 45%;
 
+    @include base-mixins.mobile {
+      width: 100%;
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+    }
+
     input {
       height: 40px;
     }
@@ -72,10 +88,20 @@
     display: flex;
     align-items: center;
 
+    @include base-mixins.mobile {
+      column-gap: 2.5rem;
+      justify-content: center;
+      padding-bottom: .8rem;
+    }
+
       .wishlist-cart-container, 
       .header-cart-container {
         @include layouts-mixins.header-icon;
+
+        @include base-mixins.mobile {
+          margin-left: 0;
         }
+      }
     }
   }
 
@@ -84,6 +110,10 @@
     border-bottom: 2px solid variables.$section-bg-color;
     border-top: 3px solid variables.$primary-color;
     padding-inline: 0.8rem;
+
+    @include base-mixins.mobile {
+      display: none;
+    }
 
     ul {
       @include layouts-mixins.center-content;
