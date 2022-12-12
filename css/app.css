@@ -69,6 +69,11 @@ ul {
   font-size: 3rem;
   font-weight: 900;
 }
+@media (max-width: 768px) {
+  .header .main-header #brand {
+    font-size: 2.9rem;
+  }
+}
 .header .main-header #brand i {
   color: #d10024;
   font-size: 2rem;
@@ -185,6 +190,17 @@ ul {
   height: 540px;
   padding: 2rem;
 }
+@media (max-width: 1024px) {
+  .deal-container {
+    height: fit-content;
+  }
+}
+@media (max-width: 768px) {
+  .deal-container {
+    background-size: contain;
+    background-position-y: 0;
+  }
+}
 .deal-container-content {
   height: 100%;
   flex-direction: column;
@@ -194,6 +210,11 @@ ul {
   display: flex;
   justify-content: space-between;
   justify-content: center;
+}
+@media (max-width: 768px) {
+  .deal-container-content {
+    align-items: flex-start;
+  }
 }
 .deal-container-content-timer {
   display: flex;
@@ -380,6 +401,11 @@ ul {
   margin-bottom: 1rem;
   max-width: 70%;
 }
+@media (max-width: 1024px) {
+  .banner h2 {
+    font-size: 1.2rem;
+  }
+}
 .banner a {
   font-size: 1.5rem;
   color: #fff;
@@ -411,6 +437,11 @@ ul {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+@media (max-width: 768px) {
+  .products-grid-card {
+    width: 24%;
+  }
 }
 .products-grid-card:hover {
   border-color: #d10024;

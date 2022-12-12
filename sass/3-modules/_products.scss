@@ -11,6 +11,10 @@
   align-items: center;
   text-align: center;
 
+  @media (max-width: 768px) {
+    width: 24%;
+  }
+
   &:hover {
     border-color: variables.$primary-color;
   }

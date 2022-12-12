@@ -12,12 +12,25 @@
   height: 540px;
   padding: 2rem;
 
+  @include base-mixins.tablet {
+    height: fit-content;
+  }
+
+  @media (max-width: 768px) {
+    background-size: contain;
+    background-position-y: 0;
+  }
+
   &-content {
     height: 100%;
     flex-direction: column;
     align-items: center;
     @include layouts-mixins.center-content;
     justify-content: center;
+
+    @media (max-width: 768px) {
+      align-items: flex-start;
+    }
 
     &-timer {
       display: flex;
