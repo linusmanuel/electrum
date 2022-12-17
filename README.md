@@ -1,5 +1,6 @@
-# AGENCY
-![image](https://user-images.githubusercontent.com/79695824/205792805-e9bd9fe9-4833-4658-9b94-21e17d829398.png)
+# ELECTRUM
+![image](https://user-images.githubusercontent.com/79695824/207152819-c4e0c5c1-d007-4782-91f2-aaf5bc4f433b.png)
+
 
 ---
 ## 🎯PROJECT'S DESCRIPTION 
@@ -7,7 +8,7 @@
 
 ## 🚀 More details!
 
-📲 <a href="https://linus-agency.netlify.app/" target="_blank">See the remote project on Netlify</a>
+📲 <a href="https://linus-electrum.netlify.app/" target="_blank">See the remote project on Netlify</a>
 🎬 <a href="https://youtu.be/ESP1ErA3gvE" target="_blank"> Watch the project's video on youtube</a>
 
 
