@@ -9,7 +9,7 @@
 ## 🚀 More details!
 
 📲 <a href="https://linus-electrum.netlify.app/" target="_blank">See the remote project on Netlify</a>
-🎬 <a href="https://youtu.be/ESP1ErA3gvE" target="_blank"> Watch the project's video on youtube</a>
+🎬 <a href="https://youtu.be/N3YV2XD6Hz4" target="_blank"> Watch the project's video on youtube</a>
 
 
 ### 📋 Instructions for running the project
